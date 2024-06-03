@@ -11,7 +11,7 @@ turno varchar(255) not null,
 primary key(id)
 );
 
-insert into tb_colaboradores (nome, cargo, salario, turno) values ("Ana Clara Alencar", "CEO", "50.000", "Manhã");
+insert into tb_colaboradores (nome, cargo, salario, turno) values ("Ana Clara Alencar", "CEO", "35.000", "Manhã");
 insert into tb_colaboradores(nome, cargo, salario, turno) values ("Fabiola Souza", "Coordenadora", "12.000", "Manhã");
 insert into tb_colaboradores(nome, cargo, salario, turno) values ("Sara Ferreira", "Gerente", "7.000", "Noite");
 insert into tb_colaboradores(nome, cargo, salario, turno) values ("Claudia Medeiros", "Assistente", "1.400", "Manhã");
